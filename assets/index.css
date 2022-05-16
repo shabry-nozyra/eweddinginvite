@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.no-border {
+    border: 0px !important;
+}
+
+.user-chat {
+    font-size: 36px;
+}
+
+.banner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.size-large2 {
+    font-size: 40px;
+}
+
+.size-large {
+    font-size: 52px;
+}
+
+.size-small {
+    font-size: 16px;
+}
+
+.nama-pasangan {
+    font-family: 'Alex Brush', cursive;
+}
+
+.size-medium {
+    font-size: 20px;
+}
+
+.the-wedding-of {}
+
+.bgcolor {
+    background-color: #f6f6ec;
+}
+
+.bgcolor svg {
+    opacity: .27;
+    color: #978777;
+}
+
+.our-wedding svg {
+    opacity: .27;
+    color: #978777;
+}
+
+.bgcolor svg.bottom {
+    margin-bottom: 0px;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.banner {
+    color: #978777;
+}
+
+section.arrum {
+    background-color: #b4b4ad;
+}
+
+section.arrum .card {
+    opacity: 1;
+}
+
+section.our-wedding {
+    background-color: #f6f6ec;
+}
+
+.love {
+    margin-top: 50%;
+    margin-bottom: 50%;
+    font-size: 81px;
+    color: #978777;
+}
+
+.color-cc {
+    color: #978777;
+}
+
+.ig {
+    text-decoration: none;
+    color: #978777;
+    font-size: 24px;
+}
+
+.ig:active,
+.ig:focus {
+    color: #978777;
+}
+
+.rangkaian-acara {
+    background-color: #b4b4ad;
+}
+
+.a1 {
+    color: #978777;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+
+.highlight {
+    height: 600px;
+    background-image: url("img/IMG_1619.jpg");
+    background-position: left center;
+    background-size: cover;
+}
+
+section.pesan {
+    background-color: #f6f6ec;
+}
+
+.footer-link {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-link:hover,
+.footer-link:focus,
+.footer-link:active {
+    color: black;
+    text-decoration: underline;
+}
+
+#iklan {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    z-index: 999;
+    text-align: center;
+    background-image: url("img/IMG_1619.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 100%;
+}
+
+#iklan::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .6;
+    bottom: 0;
+    z-index: -2;
+}
+
+.hide {
+    display: none;
+}
